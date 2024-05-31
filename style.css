@@ -1,0 +1,182 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gradient-background {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #ff6b6b, #ffcc5c, #1dd1a1, #5f27cd);
+  background-size: 800% 800%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.title-explain {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.middle-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle1-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  outline: none;
+} */
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(270deg, #ff6b6b, #ffcc5c, #1dd1a1, #5f27cd);
+  background-size: 800% 800%;
+  animation: gradientAnimation 15s ease infinite;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.explain {
+  text-align: center;
+  font-weight: 900;
+  padding: 10px;
+  font-size: 21px;
+}
+
+.input {
+  padding: 10px 20px;
+  font-size: 25px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.btn {
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.6);
+  transition: all 300ms ease;
+}
+
+.info-text {
+  font-size: 19px;
+  font-weight: 700px;
+  text-align: center;
+  padding: 20px;
+}
+
+.end-title {
+  text-align: center;
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.final {
+  text-align: center;
+}
+
+.final-title {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 10px;
+}

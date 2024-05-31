@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Welcome to BMI Calculator</h1>
+      <p class="explain">
+        Body mass index (BMI) is a measure of body fat based on height and
+        weight that applies to adult men and women.
+      </p>
+      Your Height (CM):
+      <input
+        type="number"
+        class="input"
+        id="height"
+        value="180"
+        placeholder="Enter Your Height in CM"
+      />
+      Your Weight (KG):
+      <input
+        type="number"
+        class="input"
+        id="weight"
+        value="80"
+        placeholder="Enter Your Weight in KG"
+      />
+      <button class="btn" id="btn">Calculate BMI</button>
+      <input type="text" class="input final" id="bmi-result" />
+      <h4 class="info-text">Weight Info: <span id="weight-info"></span></h4>
+      <span class="final-title">Made With ❤️ In Egypt</span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
